@@ -1,5 +1,7 @@
 # Day 28｜部署你的 24/7 AI 助理
 
+![Day 28 封面：產品經理監看持續運作的 AI 助理排程](../images/day-28/cover.png)
+
 FlowBoard 的流程圖已完成，但筆電闔上後，早上七點半的任務不會自己執行。所謂 24/7 助理，不是模型永遠醒著，而是有一套持續可用的執行環境，在事件或排程到達時啟動工作，並在失敗時留下訊號。
 
 ## 先選架構，再選產品
@@ -27,6 +29,8 @@ flowchart LR
 排程服務也不是精準鬧鐘。以 GitHub Actions 為例，官方文件說明可用 POSIX cron 設定 `schedule`，並可指定 IANA 時區；排程工作跑在預設分支的最新提交。[GitHub Actions workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax) 官方教學也提醒，高負載時排程可能延遲，甚至有佇列工作被捨棄的情況，因此關鍵任務要有補跑和漏跑偵測，不能只相信 cron。[GitHub 排程教學](https://docs.github.com/en/actions/tutorials/manage-your-work/schedule-issue-creation)
 
 ## FlowBoard 的部署清單
+
+![24 小時工作流：排程、輸入檢查、內部草稿、人工核准與復原](../images/day-28/core-workflow.png)
 
 以下均為教學用模擬設計。第一版只部署「情報日報草稿」，不自動改 PRD、不更動 Roadmap，也不對外發布。
 
@@ -92,6 +96,8 @@ retention: 依組織政策填寫
 人要確認服務條款、資料位置、保存期限、費用與速率限制，並實測中止、回復與密鑰輪替。若使用 OpenAI API 的背景模式，官方文件指出它為了輪詢會暫時把回應資料寫入磁碟，且資料控制條件會受 `store` 與組織設定影響；不能只看到「background」便當成通用排程器或零保存方案。[OpenAI Data controls](https://developers.openai.com/api/docs/guides/your-data)
 
 ## 今天的產出物
+
+![Day 28 小結：任務負責人、漏跑告警與補跑復原](../images/day-28/recap.png)
 
 完成 24/7 AI 助理任務清單：每項任務寫明 owner、觸發、輸入、輸出、權限、核准、成本上限、重試、漏跑偵測、暫停與復原。FlowBoard 第一版只有情報日報草稿；其他任務先留在人工流程。
 

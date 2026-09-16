@@ -1,5 +1,7 @@
 # Day 20｜把數據分析變成老闆看得懂的結論
 
+![Day 20 封面：把數據變成決策](../images/day-20/cover.png)
+
 主管通常不需要聽你逐欄朗讀漏斗；他需要知道發現是什麼、證據多強、現在要做哪個決定。壓縮不能以刪掉分母和限制為代價。
 
 ## 一頁式結論的四層
@@ -12,6 +14,8 @@
 4. **建議決策**：下一步、負責人、期限與停止條件。
 
 漏斗用來顯示使用者依序完成任務的步驟與流失位置；Google Analytics 的官方說明也區分開放與封閉漏斗，顯示解讀前必須保留設定脈絡。[Google Analytics：Funnel exploration](https://support.google.com/analytics/answer/9327974?hl=en)
+
+![從發現、證據與假設到決策](../images/day-20/core-workflow.png)
 
 ## FlowBoard 一頁式數據結論
 
@@ -82,6 +86,8 @@
 
 主管與產品團隊需判斷：這份證據是否足以投入下一輪、查證成本是否合理、何時停止。分析人員負責確認計算與資料品質；工程確認事件實作；PM 確保決策沒有超出證據。AI 可協助壓縮文字，但不能替任何角色承擔結論。
 
+![Day 20 小結：保留限制，才能放心決策](../images/day-20/recap.png)
+
 ## 今天的產出物
 
 你完成一頁式數據結論模板，將 Day 18 的定義與 Day 19 的計算轉成可執行決策，且保留證據邊界。明天會把視角轉向外部市場，建立 AI 產業情報雷達；同樣先定義值得追蹤的問題，再收集資訊。
@@ -90,4 +96,3 @@
 
 - [Google Analytics：Funnel exploration](https://support.google.com/analytics/answer/9327974?hl=en)
 - [Google for Developers：Set up events](https://developers.google.com/analytics/devguides/collection/ga4/events)
-

@@ -1,5 +1,7 @@
 # Day 18｜產品人該怎麼用 AI 看懂業務數據？
 
+![Day 18 封面：先定義，再分析](../images/day-18/cover.png)
+
 「請分析這份 CSV」聽起來有效率，卻把最重要的產品決定交給模型猜：要分析誰、哪段時間、完成什麼才算成功？今天先定義問題，再計算數字。
 
 ## 今天要解決的問題
@@ -40,6 +42,8 @@ task_completed：該成員將任務狀態改為完成
 
 每個事件還需有擁有者、版本、時區、去重鍵與品質檢查。`task_completed` 若重送兩次，分子仍只能算同一人一次。
 
+![從商業問題、定義與事件字典建立漏斗](../images/day-18/core-workflow.png)
+
 ## 可手算的模擬資料
 
 | Cohort | 邀請送達 | 接受 | 進入 | 看見提示 | 開啟任務 | 7 日完成 |
@@ -71,6 +75,8 @@ task_completed：該成員將任務狀態改為完成
 
 產品人決定指標是否代表價值；分析與工程確認事件是否按定義發生；業務理解分群與期間是否可比。尤其要檢查機器人、測試帳號、事件延遲、時區和跨裝置去重。AI 能照公式計算，不能自行確認埋點真的對。
 
+![Day 18 小結：每個比例都要有分母](../images/day-18/recap.png)
+
 ## 今天的產出物
 
 今天完成數據分析任務定義表、事件字典與兩週模擬漏斗。明天會逐步計算轉換與流失，找出值得追查的差異，同時把「觀察」與「原因假設」分開。
@@ -79,4 +85,3 @@ task_completed：該成員將任務狀態改為完成
 
 - [Google Analytics：Funnel exploration](https://support.google.com/analytics/answer/9327974?hl=en)
 - [Google for Developers：Set up events](https://developers.google.com/analytics/devguides/collection/ga4/events)
-

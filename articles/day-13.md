@@ -1,5 +1,7 @@
 # Day 13｜補上使用者故事與驗收標準
 
+![Day 13 封面：寫出可驗收的故事](../images/day-13/cover.png)
+
 「顯示起始提示」已經比一句話需求清楚，但 QA 仍會問：什麼畫面才算顯示成功？工程也會問：沒有任務時是否算完成？今天要用具體例子消除這些歧義。
 
 ## 使用者故事不是縮小版 PRD
@@ -73,6 +75,8 @@ Scenario: 任務讀取失敗
 最後檢查每個 FR 是否至少被一則故事或非功能條件涵蓋。
 ```
 
+![從使用者故事到 Given When Then 與邊界案例](../images/day-13/core-workflow.png)
+
 ## 如何判斷驗收標準是否可用
 
 壞例子是「Then 系統正確顯示友善提示」。正確、友善都無法一致驗證。較好的寫法是「Then 成員看見無法載入的訊息，且可以重新嘗試」。它沒有規定文案和按鈕長相，但結果可觀察。
@@ -85,6 +89,8 @@ Scenario: 任務讀取失敗
 
 團隊還要決定「驗收標準」與跨功能共用的完成定義如何分工。例如所有功能都要求通過安全掃描，適合放在團隊的 Definition of Done；只有本故事適用的無任務狀態，則留在故事驗收標準。
 
+![Day 13 小結：可觀察，才可驗收](../images/day-13/recap.png)
+
 ## 今天的產出物
 
 今天完成 US-01 與三個驗收情境，並保留「第一項任務排序」為待決問題。明天會讓 AI 分別從產品、設計、工程與 QA 視角提出問題，再由真正的角色負責人判斷、指派與修訂。
@@ -93,4 +99,3 @@ Scenario: 任務讀取失敗
 
 - [Agile Alliance：What are User Stories?](https://agilealliance.org/glossary/user-stories/)
 - [Cucumber：Gherkin Reference](https://cucumber.io/docs/gherkin/reference/)
-
