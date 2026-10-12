@@ -1,10 +1,12 @@
 # Day 28｜部署可監控的 Claude Code 工作流
 
-![Day 28 封面：產品經理監看持續運作的 AI 助理排程](../images/day-28/cover.png)
+![Day 28 封面：產品經理監看持續運作的 AI 助理排程](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/cover.png)
 
 ### 如何讓 AI 工作流程在電腦休眠時依然準時且可靠地運作？
 
-每天早晨，團隊都期待最新情報準時送達工作頻道。這就像給花園裝設一套全自動灑水系統，水塔會依據定時器準確供水，水管感應水壓順暢噴灑，遇到管線壓力異常時會立刻亮起警示黃燈通知管理員。在軟體工程中，這套機制就是「可監控的自動化部署」：將 AI 任務託管在持續運行的受管環境中，依循排程定時啟動、記錄完整執行狀態，並在進度延宕時發出預警的可靠維運體系。
+每天早晨，團隊都期待最新情報準時送達工作頻道。
+
+花園裝設一套全自動灑水系統，水塔會依據定時器準確供水，水管感應水壓順暢噴灑，遇到管線壓力異常時會立刻亮起警示黃燈通知管理員。在軟體工程中，這套機制就是「可監控的自動化部署」：將 AI 任務託管在持續運行的受管環境中，依循排程定時啟動、記錄完整執行狀態，並在進度延宕時發出預警的可靠維運體系。
 
 ## 先選架構，再選產品
 
@@ -20,7 +22,7 @@
 - **監控與告警（Monitoring）**：像儀表板與警報燈，即時觀測執行時間、成本用量並發送通知。
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[排程或事件觸發] --> B[工作執行容器]
   B --> C[讀取來源與欄位驗證]
   C --> D[模型與工具執行推論]
@@ -42,7 +44,7 @@ flowchart LR
 
 ## FlowBoard 的部署清單
 
-![24 小時工作流：排程、輸入檢查、內部草稿、人工核准與復原](../images/day-28/core-workflow.png)
+![24 小時工作流：排程、輸入檢查、內部草稿、人工核准與復原](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/core-workflow.png)
 
 以下展示教學情境的七層部署規範：
 
@@ -171,15 +173,15 @@ description: 檢查產品情報工作流是否具備來源限制、權限隔離�
 
 執行時系統會先將待確認的設定變更展開，清晰交代這批變更停在任務契約的哪個審核節點：
 
-![/deploy-readiness 產出 settings.json 與 .mcp.json 原始 diff，結論顯示目前狀態為待確認審核閘門](../images/day-28/screenshot-02-deploy-settings-diff.png)
+![/deploy-readiness 產出 settings.json 與 .mcp.json 原始 diff，結論顯示目前狀態為待確認審核閘門](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/screenshot-02-deploy-settings-diff.png)
 
 接著呈現完整的檢查表，逐項給出檢核狀態，明確標示告警與復原機制的待完善項目，協助團隊鎖定關鍵防護重點：
 
-![部署前檢查表九項逐一給出狀態，明確標示告警與復原的待完善狀態，下方彙總停止條件與待驗證項目](../images/day-28/screenshot-01-deploy-readiness-checklist.png)
+![部署前檢查表九項逐一給出狀態，明確標示告警與復原的待完善狀態，下方彙總停止條件與待驗證項目](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/screenshot-01-deploy-readiness-checklist.png)
 
 ## 今天的產出物
 
-![Day 28 小結：任務負責人、逾時通報與補跑復原機制](../images/day-28/recap.png)
+![Day 28 小結：任務負責人、逾時通報與補跑復原機制](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/recap.png)
 
 今天完成的是**可監控的 24/7 AI 助理任務部署清單**。
 
@@ -187,7 +189,7 @@ description: 檢查產品情報工作流是否具備來源限制、權限隔離�
 
 ## 參考資料
 
-- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)（查閱日期：2026-09-16）
-- [Claude Code 官方文件：Hooks reference](https://code.claude.com/docs/en/hooks)（查閱日期：2026-09-16）
-- [GitHub Actions：Workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax)（查閱日期：2026-09-15）
-- [GitHub Docs：Scheduling issue creation](https://docs.github.com/en/actions/tutorials/manage-your-work/schedule-issue-creation)（查閱日期：2026-09-15）
+- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)
+- [Claude Code 官方文件：Hooks reference](https://code.claude.com/docs/en/hooks)
+- [GitHub Actions：Workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax)
+- [GitHub Docs：Scheduling issue creation](https://docs.github.com/en/actions/tutorials/manage-your-work/schedule-issue-creation)

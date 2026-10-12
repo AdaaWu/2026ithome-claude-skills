@@ -1,6 +1,6 @@
 # Day 29｜把前 28 天組合成 Claude Code 產品工作流
 
-![Day 29 封面：產品經理與 AI 助理檢視完整產品證據鏈](../images/day-29/cover.png)
+![Day 29 封面：產品經理與 AI 助理檢視完整產品證據鏈](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/cover.png)
 
 ### 如何讓產品從最初的靈感發想到最終的決策驗證，形成環環相扣的完整鏈條？
 
@@ -44,7 +44,7 @@ flowchart LR
 
 ## FlowBoard 完整案例示範
 
-![完整 AI 產品工作流：情境、證據、需求、規格、Demo、數據與決策閉環](../images/day-29/core-workflow.png)
+![完整 AI 產品工作流：情境、證據、需求、規格、Demo、數據與決策閉環](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/core-workflow.png)
 
 以下展示 FlowBoard 的全流程證據串接卡片：
 
@@ -68,7 +68,7 @@ flowchart LR
 - 數據觀察：基準週啟用率 25%，新引導版本週啟用率提升至 40%
 - 決策沉澱：作為下一輪情境卡優化之實證依據，形成正向循環
 
-![FlowBoard 工作流交接鏈示意：研究、需求、原型、數據與決策保留識別碼與來源](../images/day-29/screenshot-01-evidence-chain-handoff.png)
+![FlowBoard 工作流交接鏈示意：研究、需求、原型、數據與決策保留識別碼與來源](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/screenshot-01-evidence-chain-handoff.png)
 
 ## 執行規則
 
@@ -166,7 +166,7 @@ docs/
 
 ## 今天的產出物
 
-![Day 29 小結：用識別碼、版本、來源與狀態建立完整串接鏈條](../images/day-29/recap.png)
+![Day 29 小結：用識別碼、版本、來源與狀態建立完整串接鏈條](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/recap.png)
 
 今天完成的是**AI 產品工作流全景藍圖與交接契約索引**。
 

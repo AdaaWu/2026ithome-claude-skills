@@ -1,6 +1,6 @@
 # Day 30｜復盤：Claude Code Skills 真正改變的是什麼？
 
-![Day 30 封面：產品經理與 AI 助理復盤三十天成果](../images/day-30/cover.png)
+![Day 30 封面：產品經理與 AI 助理復盤三十天成果](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/cover.png)
 
 ### 如何客觀評估 AI 工作流為團隊帶來的真實改變？
 
@@ -38,7 +38,7 @@ flowchart TD
 
 ## FlowBoard 模擬前後對照示範
 
-![三十天復盤架構：效率、品質、決策與可靠性](../images/day-30/core-workflow.png)
+![三十天復盤架構：效率、品質、決策與可靠性](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/core-workflow.png)
 
 以下為 FlowBoard 工作流導入前後的指標對照卡片：
 
@@ -72,7 +72,7 @@ flowchart TD
 - 第 30 天流程數值：100% 產出內部草稿，落實審核把關
 - 解讀限制說明：系統權限嚴格限制為內部傳閱草稿
 
-![Claude Code 復盤摘要終端畫面：逐項對照效率、品質、追溯、決策、可靠性與授權指標，數據皆為教學用模擬資料](../images/day-30/screenshot-01-retrospective-summary.png)
+![Claude Code 復盤摘要終端畫面：逐項對照效率、品質、追溯、決策、可靠性與授權指標，數據皆為教學用模擬資料](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/screenshot-01-retrospective-summary.png)
 
 這組數據的核心亮點在於客觀標示出待補充之處與補跑紀錄，清楚展現排程預警與人工把關機制的真實保護價值。
 
@@ -183,7 +183,7 @@ description: 依據固定測試集、執行紀錄與人工審核歷程，復盤 
 
 ## 今天的產出物
 
-![Day 30 小結：記錄可重現成果與待改善紀錄，用事實依據推進下一輪迭代](../images/day-30/recap.png)
+![Day 30 小結：記錄可重現成果與待改善紀錄，用事實依據推進下一輪迭代](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/recap.png)
 
 今天完成的是**三十天工作流成效復盤報告與後續演進路線圖**。
 
