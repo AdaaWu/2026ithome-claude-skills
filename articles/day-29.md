@@ -22,22 +22,7 @@
 - **原型走查（DEMO）**：實體樣品。把抽象規格變成可操作、可驗證的路徑。
 - **決策紀錄（DEC / TEST）**：實驗結案報告。根據實測數據決定下一步與迭代方向。
 
-```mermaid
-flowchart LR
-  A[CTX 產品情境] --> B[OBS/EVD 觀察與回饋]
-  B --> C[RC 需求卡]
-  C --> D[DEC 優先級決策]
-  D --> E[PRD/AC 規格與驗收]
-  E --> F[DEMO 原型走查]
-  F --> G[TEST/DATA 驗證與數據]
-  G --> H[DEC 決策紀錄]
-  I[INT 情報雷達] --> B
-  H --> A
-  H --> E
-  J[版本與 Skill 自動化] -.支援.-> B
-  J -.支援.-> E
-  J -.支援.-> G
-```
+![完整 AI 產品工作流程圖：從產品情境、觀察回饋、需求卡、規格、原型、驗證到決策紀錄，並回流至情境與規格](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/evidence-chain-flow.png)
 
 ## 做法與權衡
 

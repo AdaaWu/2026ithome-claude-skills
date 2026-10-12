@@ -20,18 +20,7 @@
 - **決策品質（Decision Quality）**：航海日誌裡的航線理由。檢視團隊是否依據數據與可驗證假設推進專案。
 - **系統可靠性（Reliability）**：電力系統的供電穩定率。記錄排程準時率、異常預警與補跑復原能力。
 
-```mermaid
-flowchart TD
-  A[三十天工作流復盤] --> B[產出效率：時間與人工微調]
-  A --> C[產出品質：結構完整與溯源率]
-  A --> D[決策品質：假設檢驗與數據支撐]
-  A --> E[系統可靠性：排程準時與補跑復原]
-  B --> F[量化指標卡片]
-  C --> F
-  D --> F
-  E --> F
-  F --> G[沉澱成果與啟動下一輪迭代]
-```
+![三十天復盤流程圖：由效率、品質、決策品質、系統可靠性四項指標匯入量化指標卡片，再啟動下一輪迭代](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/retrospective-metrics-flow.png)
 
 ## 做法與權衡
 
