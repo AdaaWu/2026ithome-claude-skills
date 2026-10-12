@@ -1,4 +1,4 @@
-# Day 30｜復盤：Claude Code Skills 真正改變的是什麼？
+# Day 30 - 復盤：Claude Code Skills 真正改變的是什麼？
 
 ![Day 30 封面：產品經理與 AI 助理復盤三十天成果](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-30/cover.png)
 

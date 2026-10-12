@@ -1,4 +1,4 @@
-# Day 29｜把前 28 天組合成 Claude Code 產品工作流
+# Day 29 - 把前 28 天組合成 Claude Code 產品工作流
 
 ![Day 29 封面：產品經理與 AI 助理檢視完整產品證據鏈](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-29/cover.png)
 

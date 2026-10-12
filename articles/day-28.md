@@ -1,4 +1,4 @@
-# Day 28｜部署可監控的 Claude Code 工作流
+# Day 28 - 部署可監控的 Claude Code 工作流
 
 ![Day 28 封面：產品經理監看持續運作的 AI 助理排程](https://raw.githubusercontent.com/AdaaWu/2026ithome-claude-skills/main/images/day-28/cover.png)
 
