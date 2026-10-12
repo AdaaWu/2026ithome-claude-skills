@@ -1,4 +1,4 @@
-# Day 23｜用 Claude Code 產生每日情報日報草稿
+# Day 23 - 用 Claude Code 產生每日情報日報草稿
 
 ![Day 23 封面：產品經理與 AI 助理整理每日情報優先級](../images/day-23/cover.png)
 
