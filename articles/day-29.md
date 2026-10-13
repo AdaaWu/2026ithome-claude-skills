@@ -163,5 +163,5 @@ docs/
 
 ## 參考資料
 
-- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)（查閱日期：2026-09-16）
-- [GOV.UK Service Manual：Agile delivery](https://www.gov.uk/service-manual/agile-delivery)（查閱日期：2026-09-15）
+- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)
+- [GOV.UK Service Manual：Agile delivery](https://www.gov.uk/service-manual/agile-delivery)

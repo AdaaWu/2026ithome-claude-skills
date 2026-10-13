@@ -202,5 +202,5 @@ description: 依據固定測試集、執行紀錄與人工審核歷程，復盤 
 
 ## 參考資料
 
-- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)（查閱日期：2026-09-16）
-- [Claude Code 官方文件：Best practices](https://code.claude.com/docs/en/best-practices)（查閱日期：2026-09-16）
+- [Claude Code 官方文件：Extend Claude with skills](https://code.claude.com/docs/en/skills)
+- [Claude Code 官方文件：Best practices](https://code.claude.com/docs/en/best-practices)
